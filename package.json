@@ -1,0 +1,36 @@
+{
+  "name": "sequence-finder-cli",
+  "version": "0.0.5",
+  "description": "A light-weight command line tool for finding the origins of sequences and querying the OEIS database",
+  "keywords": [
+    "sequences",
+    "fibonacci",
+    "primes",
+    "prime-numbers",
+    "search",
+    "oeis",
+    "searcher",
+    "search",
+    "series",
+    "golden-ratio",
+    "math",
+    "cli",
+    "command-line",
+    "command-line-interface",
+    "api",
+    "oeis-api"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Seamus Martin",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "inquirer": "^5.1.0"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "sequence": "index.js"
+  }
+}

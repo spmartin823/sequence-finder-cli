@@ -1,6 +1,7 @@
 {
   "name": "sequence-finder-cli",
   "version": "0.0.5",
+  "repository" : "https://github.com/spmartin823/sequence-finder-cli", 
   "description": "A light-weight command line tool for finding the origins of sequences and querying the OEIS database",
   "keywords": [
     "sequences",

@@ -1,5 +1,5 @@
 ## What it is:
-This module will search the OEIS (Online Encyclopedia of Integer Sequences) for sequences that match your input sequence. 
+This module will search the OEIS ([Online Encyclopedia of Integer Sequences](https://oeis.org/)) for sequences that match your input sequence. 
 
 Have you ever created a sequence by accident and wondered what it could be? 
 Use the sequence-finder-cli to find out!

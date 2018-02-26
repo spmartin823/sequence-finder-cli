@@ -23,7 +23,6 @@ const selectSequenceAndTerms = async (seqObj) => {
     if (key === 'See more matches') {
       response = await inquirer.prompt(prompts.createSelectSequenceFromAll(seqObj))
       key = response.key
-      console.log('this is the key in selectSequenceAndTerms: ', key)
     }
     let { name, data } = seqObj[key];
     console.log(`\nDescription: ${name}\n\nTerms: ${data}\n\n`)
